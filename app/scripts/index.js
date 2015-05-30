@@ -1,3 +1,3 @@
 x = require("./index.bak.js");
-//x();
-document.write('hi');
+uniq = require('uniq');
+console.log(uniq([1,2,2,3]));
