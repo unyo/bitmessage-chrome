@@ -1,9 +1,8 @@
 {
-    "name": "__MSG_appName__",
-    "description": "__MSG_appDescription__",
-    "version": "9",
+    "name": "Bitmessage Chrome",
+    "description": "Bitmessage Chrome App",
+    "version": "14",
     "manifest_version": 2,
-    "default_locale": "en",
     "permissions": [
         {
             "socket": [
@@ -11,7 +10,6 @@
                 "tcp-connect:*:*"
             ]
         },
-        "app.runtime",
         "app.window",
         {
             "fileSystem": [
@@ -24,14 +22,13 @@
         "unlimitedStorage"
     ],
     "icons": {
-        "16": "images/icon-16.png",
-        "128": "images/icon-128.png"
+//        "16": "images/icon-16.png",
+//        "128": "images/icon-128.png"
     },
     "app": {
         "background": {
             "scripts": [
-                "scripts/main.js",
-                "scripts/chromereload.js"
+                "scripts/main.js"
             ]
         }
     }
