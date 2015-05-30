@@ -5,10 +5,10 @@
     "manifest_version": 2,
     "sockets": {
         "tcp": {
-          "connect": "*:*"
+          "connect": ""
         },
         "tcpServer": {
-          "listen": "*:*"
+          "listen": ""
         }
     },
     "permissions": [
