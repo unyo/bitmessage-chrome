@@ -5,4 +5,9 @@ module.exports = {
         path: __dirname+"/app/scripts",
         filename: "bundle.js"
     },
+    module: {
+        loaders: [
+            { test: /\.json$/, loader: "json"}
+        ]
+    }
 };

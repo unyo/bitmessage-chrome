@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "bitmessage": "^0.6.3",
+    "bitmessage-transports": "unyo/bitmessage-transports",
+    "json-loader": "^0.5.2",
     "webpack": "^1.9.10"
   },
   "devDependencies": {},
