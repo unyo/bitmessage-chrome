@@ -4,6 +4,7 @@
   "dependencies": {
     "bitmessage": "^0.6.3",
     "bitmessage-transports": "unyo/bitmessage-transports",
+    "dns": "^0.2.2",
     "json-loader": "^0.5.2",
     "webpack": "^1.9.10"
   },

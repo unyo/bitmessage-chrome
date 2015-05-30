@@ -2,7 +2,7 @@ var messages = require("bitmessage").messages;
 var TcpTransport = require("bitmessage-transports").TcpTransport;
 
 var tcp = new TcpTransport({
-  dnsSeeds: [["bootstrap8444.bitmessage.org", 8444]],
+  dnsSeeds: [["97.80.212.56", 8444]],
 });
 
 tcp.bootstrap().then(function(nodes) {
