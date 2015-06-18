@@ -3,4 +3,5 @@ temp
 .tmp
 dist
 .sass-cache
-app/scripts/bundle.js
+*bundle.js
+
