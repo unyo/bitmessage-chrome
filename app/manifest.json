@@ -3,6 +3,14 @@
     "description": "Bitmessage Chrome App",
     "version": "14",
     "manifest_version": 2,
+    "sockets": {
+        "tcp": {
+          "connect": ""
+        },
+        "tcpServer": {
+          "listen": ""
+        }
+    },
     "permissions": [
         {
             "socket": [

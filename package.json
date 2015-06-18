@@ -1,9 +1,14 @@
 {
   "name": "bitmessage-chrome",
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "bitmessage": "^0.6.3",
+    "bitmessage-transports": "unyo/bitmessage-transports",
+    "dns": "^0.2.2",
+    "json-loader": "^0.5.2",
+    "webpack": "^1.9.10"
   },
+  "devDependencies": {},
   "engines": {
     "node": ">=0.8.0"
   }
